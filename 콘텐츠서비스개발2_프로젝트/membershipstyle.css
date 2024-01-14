@@ -1,0 +1,172 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#small_title{
+    cursor: pointer;
+}
+
+
+.pyony_gather{
+    display : flex;
+    justify-content: space-around;
+}
+
+.button_login{
+        cursor: pointer;
+        font-size: large;
+        font-style: italic;
+        font-weight: 1000;
+        background-color: #1BBC9B;
+        border-radius: 10px;
+        width : 100px;
+        height : 50px;
+}
+
+body{
+    background-color: #dde4e6;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:14px;
+}
+
+
+.header_element{
+    margin-left : 20px;
+    padding : 5px;
+    border-radius: 3px;
+}
+
+
+#CU{
+    background-color: #751385;
+    color : white;
+    text-shadow: 1px 1px #9CC92B;
+}
+#GS25{
+    background-color: #01B0D0;
+    color : white;
+    text-shadow: 1px 1px #e2751b;
+}
+#seven-ELEVEn{
+    background-color: #22805454;
+    color : white;
+    text-shadow: 1px 1px #e2751b;
+}
+#MINISTOP{
+    background-color: #edfc18;
+    color : white;
+    text-shadow: 1px 1px #3e23d6;
+}
+#emart24{
+    background-color:rgb(60,64,67);
+    color : white;
+    text-shadow: 1px 1px #ece039;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 5px;
+  }
+
+.membership{
+    background-color: #edf0f1;
+    display : flex;
+    flex-direction: column;
+    width :50%;
+    border : 1px solid black;
+    margin: auto; 
+    padding: 0 30px 30px 20px;
+    margin-bottom: 20px;
+}
+.membership strong{
+    display: block;
+}
+.membership h2{
+    text-align: center;
+}
+.userpw{
+    background: url(lock2.jfif) no-repeat center right 5px;
+    background-size: 50px;
+}
+.userpw-confirm{
+    
+    background: url(lock.png) no-repeat center right 15px;
+    background-size: 30px;
+}
+
+.login_form{
+    display: block;
+    width : 100%;
+    bottom : 40px;
+    position : relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border : none;
+    font-size: large;
+    background-color: white;
+}
+
+.user_gender div{
+    border: 1px solid #dadada;
+    padding: 15px 5px;
+    background-color: #fff;
+}
+
+.favorite_pyony{
+    display : flex;
+    flex-wrap: nowrap;
+}
+
+#favorite_p{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#favorite_s{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+
+.join_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+
+.membership-footer {
+    font-style: inherit;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.membership-footer div a:hover{
+    text-decoration: underline;
+    color:#2db400
+}
+.membership-footer div a:after{
+    content:'|';
+    font-size: 10px;
+    color:#bbb;
+    margin-right: 5px;
+    margin-left: 7px;
+    /*살짝 내려가 있기 때문에 위로 올려주기 위해 transform 사용하기*/
+    display: inline-block;
+    transform: translateY(-1px);
+
+}
+
+.membership-footer div a:last-child:after{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}

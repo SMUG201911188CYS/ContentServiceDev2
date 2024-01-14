@@ -1,0 +1,128 @@
+.login_screen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width : 800px;
+    text-align: center;
+    margin-left : 30%;
+    margin-top: 5%;
+    border : 1px solid black;
+    padding : 40px 40px 100px 40px;
+    background-color: #1BBC9B;
+}
+
+
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cec6c6;
+    padding : 3px;
+}
+
+#small_title{
+    cursor: pointer;
+    margin : 0 5px 0 5px;
+}
+
+
+.pyony_gather{
+    display : flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+.header_element{
+    margin-left : 20px;
+    padding : 5px;
+    margin : 0 5px 0 0;
+    border-radius: 3px;
+}
+
+#CU{
+    background-color: #751385;
+    color : white;
+    text-shadow: 1px 1px #9CC92B;
+}
+#GS25{
+    background-color: #01B0D0;
+    color : white;
+    text-shadow: 1px 1px #e2751b;
+}
+#seven-ELEVEn{
+    background-color: #22805454;
+    color : white;
+    text-shadow: 1px 1px #e2751b;
+}
+#MINISTOP{
+    background-color: #edfc18;
+    color : white;
+    text-shadow: 1px 1px #3e23d6;
+}
+#emart24{
+    background-color:rgb(60,64,67);
+    color : white;
+    text-shadow: 1px 1px #ece039;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 5px;
+  }
+body {
+    margin: 0;
+    background-color: #cec6c6;
+}
+
+.login_form{
+    width:300px;
+    background-color : #EEEFF1; ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    border : none;
+}
+
+.login_element{
+    font-size: 14px;
+      padding: 10px;
+      border: none;
+      width: 260px;
+      margin-bottom: 10px;
+}
+
+.login_btn{
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    width: 260px;
+    background-color: #1BBC9B;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.join_btn{
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    width: 260px;
+    background-color: #3b4442;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.links {
+    text-align: center;
+}
+ 
+.links a {
+  font-size: 12px;
+  color: #9B9B9B;
+}
